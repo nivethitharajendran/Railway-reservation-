@@ -1,0 +1,25 @@
+
+form {
+  border: 100px solid #f1f1f1;
+
+  background-image: url(https://acetablets.co/wp-content/uploads/2019/04/light-blue-background-images-for-websites-hd-image-download-color-rays-stock-motion-graphics-array-lighting-magnificent-p.jpg);
+}
+.container {
+
+}
+.container {
+  padding: 50px;
+text-align: center;
+color: white;/* background-image: url(https://acetablets.co/wp-content/uploads/2019/04/light-blue-background-images-for-websites-hd-image-download-color-rays-stock-motion-graphics-array-lighting-magnificent-p.jpg); */
+}
+a{
+  color: white;
+}
+img{
+  margin-top:150px;
+  width:1000px;
+}
+h1{
+  color:tomato;
+  font-family:cursive;
+}

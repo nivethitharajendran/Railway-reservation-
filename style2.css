@@ -1,0 +1,67 @@
+button {
+  background-color: tomato;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: auto;
+}
+p{
+  color:pink;
+  text-align:center;
+  font-family: cursive;
+}
+input[type=text], input[type=password] {
+  width: auto;
+  padding: 12px 20px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+body{
+  background-image:url(https://i.pinimg.com/originals/7d/41/be/7d41be34dc60d063a6b1c4805eb230e8.jpg);
+  text-align: center;
+  padding-right:50px;
+  padding-left: 50px;
+}
+#id{
+  background-color: white;
+  background: 75px;
+}
+
+span{
+    font-size:15px;
+}
+a{
+  text-decoration:line-through;
+  color: black;
+  border-bottom:2px solid #0062cc;
+}
+.box{
+    padding:60px 20px;
+    margin:50px;
+}
+
+.box-part{
+    background:#FFF;
+    border-radius:0;
+    padding:60px 10px;
+    margin:30px 0px;
+}
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+     color:black;
+}
+
+
+
+
+
+
+
+}

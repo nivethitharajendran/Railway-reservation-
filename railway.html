@@ -1,0 +1,61 @@
+<html>
+<head>
+  <title>MobiRail</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+  function validate(){
+    if((sname=="")||(dname=="")||(daname==""))
+    {
+      alert("Field value required");
+      return false;
+    }return true;
+  }
+  </script>
+</head>
+<body >
+  <div class="abc">
+    <div class= "row">
+    <img src="C:\Users\Nivi\Pictures\mobilogo.PNG">
+    <center><h1>Book with a click now! </h1></center>
+  </div>
+  <section id="option">
+    <div class="container">
+      <div class="row">
+    <div class="feature-box col-lg-3">
+    <i class="fa fa-user fa-2x"></i>
+    <h3>Login</h3>
+    <a href="login.html"><u>Click here</u></a>
+  </div>
+    <div class="feature-box col-lg-3">
+    <i class="fa fa-ticket fa-2x"></i>
+    <h3> PNR status</h3>
+    <a href="pnr.html"><u>Click here</u></a>
+  </div>
+    <div class="feature-box col-lg-3">
+      <i class="fa fa-train fa-2x"></i>
+    <h3>Seat availability</h3>
+    <a href="seat.html"><u>Click here</u></a>
+  </div>
+    <div class="feature-box col-lg-3">
+    <i class="fa fa-train fa-2x"></i>
+    <h3>Train Status</h3>
+    <a href="runstatus.html"><u>Click here</u></a>
+  </div>
+  </div>
+</div>
+
+  </section>
+  <section id="book">
+    <label for ="sname"><b>Source</b></label><br>
+    <input type="text"placeholder="Enter source"name="sname" required><br>
+    <label for="dname"><b>Destination</b></label><br>
+    <input type="text"placeholder="Enter destination"name="dname"required><br>
+    <label for="daname"><b>Date of Journey</b></label><br>
+    <input type="date"placeholder="Enter date"name="daname"required><br><br>
+    <button type="submit"class="btn btn-outline-warning" onclick="return validate();">Book tickets<br>
+
+ </body>
+
+</html>

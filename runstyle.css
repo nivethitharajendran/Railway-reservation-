@@ -1,0 +1,19 @@
+.card{
+  text align:center;
+  background-color:powderblue;
+  color:green;
+  margin:75px 75px 200px 280px;;
+}                                                                                                                                                                                     
+.card2{
+  text align:center;
+  background-color:powderblue;
+  color:green;
+  margin:75px  75px 200px 165px;
+  border-color:blue;
+}
+.card-img-top{
+  background-color: white;
+}
+body{
+  background-color:#4CAF50;
+}
